@@ -1,0 +1,255 @@
+html, body {
+    height: 100%;
+}
+/*Roboto Condensed*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s!important;
+}
+h2,h3{
+	font-family: 'Open Sans', sans-serif;	
+	color:#e15c5c;
+}
+h2{
+	font-size: 25px;
+}
+p{
+	margin:0;
+}
+header{
+	position: fixed;
+	z-index: 20;
+	background: rgba(255,255,255,0.96);
+	width: 100%;
+	padding:20px 0;
+}
+header .nav-1{
+	font-size: 11.5px;
+	float:right;
+	font-family:'Roboto Condensed', sans-serif; 
+}
+header .nav-1 li a{
+	color:#E82C2D;
+	padding: 5px 10px;
+	transition: 0.3s;
+}
+header .nav li.language{
+	padding:5px 0; 
+}
+header .nav-1 li a:hover{
+	background: rgba(0,0,0,0);
+	color:#FFF;
+}
+.language{
+	background: #FAB00A;
+	border-radius: 5px;
+	color:#FFF;
+	padding: 0!important;
+}
+.language select{
+	border:0;
+	background: #FAB00A;
+	padding: 8px 10px;
+	border-radius: 5px;
+	transition: 0.3s;
+}
+header .nav-2{
+	margin-top: 15px;
+	float:right;
+}
+header .navbar-collapse{
+	padding:0;
+}
+header .nav-2 li a{
+	color:#838383;
+	border-right: 1px solid rgba(0,0,0,0.1);
+	transition: 0.3s;
+	padding: 0px 15px;
+	margin:5px 0;
+}
+header .nav li a:hover{
+	color:#E82C2D;
+	background: none;
+}
+header .nav-2 li:last-child a{
+	border-right: 0;
+	background: #FAB00A;
+	color:#FFF;
+	padding:5px 15px;
+	border-radius: 5px;
+	margin:0;
+}
+header .nav-2 li:nth-child(6) a{
+	border-right: 0;
+}
+.container{
+	text-align: center;
+}
+.logo{
+	width: 180px;
+	transition: 0.3s;
+}
+#slider_1{
+	padding-top:120px;
+}
+#slider_1 .swiper-container {
+    width: 100%;
+    height: 455px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: url('../img/flying.jpg') 0 60%;
+    background-size: cover;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.text-slide{
+	z-index:10;
+	color:#FFF;
+	position: absolute;
+	left:0;
+	width: 100%;
+	bottom:50px;
+}
+.t-s-1, .t-s-2{
+	display: inline-block;
+}
+.t-s-2{
+	color:#FAB00A;
+}
+.t-s-bg{
+	background: rgba(0,0,0,0.7);
+	padding: 10px 25px;
+}
+/*bienvenida section*/
+#bienvenida{
+	text-align: center;
+	background: #e15c5c;
+	padding:40px;
+}
+.txt_bienvenida{
+	display: inline-block;
+	max-width:700px;
+	color:#FFF;
+	font-size: 18px;
+}
+.txt_bienvenida p:last-child{
+	padding: 30px 0;
+	border-top: 1px dotted #FFF;
+	border-bottom: 1px dotted #FFF;
+	font-weight: 300;
+	font-size: 14px;
+	margin-top: -60px;
+}
+.txt_bienvenida p:first-child{
+	padding: 10px 0 0 0;
+	font-size: 22px;
+	background: url('../img/back-bienvenido.png') no-repeat 215px 25px;
+	position: relative;
+	top:-24px;
+	
+	z-index: 10000;
+}
+.bg_bienvenidos{
+	background: #E15C5C;
+	padding: 10px 133px;
+	position: relative;
+	top:-51px;
+	z-index: 0;
+}
+/*los imperdibles section & hecho en peru section*/
+#los_imperdibles{
+	padding: 30px 0 40px 0;
+}
+#los_imperdibles li, #hecho_en_peru li, #aventura li, #fiestas_tradicionales li{
+	width: 240px;
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+	margin: 15px;
+	border:solid 1px #ddd;
+	-moz-box-shadow:7px 8px 2px #ddd;
+	-webkit-box-shadow:7px 8px 2px #ddd;
+	box-shadow:7px 8px 2px #ddd;
+}
+#los_imperdibles .content{
+	position: absolute;
+	top:0;
+}
+#los_imperdibles img, #hecho_en_peru img, #aventura img, #fiestas_tradicionales img{
+	width: 100%;
+}
+#los_imperdibles .container h3, #hecho_en_peru .container h3, #aventura h3, #fiestas_tradicionales h3{
+	margin:10px 0 0 0;
+	font-size: 18px;
+}
+#hecho_en_peru{
+	padding: 30px 0;
+}
+span.more{
+	cursor: pointer;
+	color:#e15c5c;
+}
+#hecho_en_peru ul li, #fiestas_tradicionales ul li{
+	width: 300px;
+}
+#aventura ul li{
+	width: 180px;
+}
+/*siete formas section*/
+#siete_formas img{
+	width: 100%;
+}
+/*slider_2 section*/
+#slider_2 .swiper-slide img{
+	width: 100%;
+	height: 400px;
+}
+/*testimonio section*/
+#testimonio{
+	background: url('../img/testimonio_bg.jpg') center;
+	background-size: 100%;
+	text-align: center;
+	padding: 50px 0;
+	color:#FFF;
+}
+#testimonio .testimonio_photo{
+	width: 150px;
+	border-radius: 50%;
+	border:1px solid #FFF;
+}
+#testimonio .external_border{
+	border-radius: 50%;
+	border:3px dotted #FFF;
+	padding: 79px 15px ;
+}
+/*footer*/
+footer{
+	padding: 30px 0;
+}
+footer .col-md-2{
+	border-right: 2px solid black;
+	text-align: left;
+}
+footer ul{
+	margin-top:10px;
+	padding-left: 17px;
+}
